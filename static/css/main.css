@@ -152,7 +152,8 @@ body {
 }
 
 .body2 {
-  background-image: url(../img/bg/body2.png);
+  /*background-image: url(../img/bg/body2.png);*/
+  background:#000032;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2631,7 +2632,7 @@ a.header__search.header-search-btn p {
 * A jQuery menu plugin
 * @version 3.0.6
 * @author Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
-* @license: MIT 
+* @license: MIT
 */
 .metismenu .arrow {
   float: right;
@@ -6000,7 +6001,7 @@ a.header__search.header-search-btn p {
   padding-top: 130px;
   align-items: center;
   position: relative;
-  z-index: -2;
+  z-index: 1;
 }
 @media (max-width: 767px) {
   .hero2 {
@@ -6863,7 +6864,7 @@ a.header__search.header-search-btn p {
 ::::::::::::::::::::::::::
 */
 /*===================
- PRRELOADER AREA CSS 
+ PRRELOADER AREA CSS
  ========================
 */
 .preloader {
@@ -9741,7 +9742,7 @@ a.header__search.header-search-btn p {
   display: block;
 }
 
-/* 
+/*
 ++++++++++++++++++++++++++++++++++
 =========nav menu all ==========
 +++++++++++++++++++++++++++++++++
@@ -10499,12 +10500,12 @@ li.has-dropdown1 span {
   animation-fill-mode: forwards;
 }
 
-/* 
+/*
 ++++++++++++++++++++++++++++++++++
 ==== =====nav menu all ====== ======
 +++++++++++++++++++++++++++++++++
 */
-/* 
+/*
 ++++++++++++++++++++++++++++++++++
 ==== =====nav menu all 2 ====== ======
 +++++++++++++++++++++++++++++++++
@@ -10652,12 +10653,12 @@ li.has-dropdown1 span {
   transition: all 0.3s;
 }
 
-/* 
+/*
 ++++++++++++++++++++++++++++++++++
 ==== =====nav menu all 1 ====== ======
 +++++++++++++++++++++++++++++++++
 */
-/* 
+/*
 ++++++++++++++++++++++++++++++++++
 ==== =====nav menu all 2 ====== ======
 +++++++++++++++++++++++++++++++++
@@ -10911,7 +10912,7 @@ li.has-dropdown1 span {
   color: var(--ztc-text-text-2);
 }
 
-/* 
+/*
 ++++++++++++++++++++++++++++++++
 ========nav menu all 2 ======
 ++++++++++++++++++++++++++++++++
