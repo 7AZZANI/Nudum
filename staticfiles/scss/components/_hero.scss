@@ -192,7 +192,7 @@
         @media #{$md} {
             padding: 20px 0px;
         }
-        
+
         @media #{$xs} {
             padding: 20px 0px;
         }
@@ -299,7 +299,7 @@
         @media #{$xs} {
             display: none;
         }
-        
+
 
         .image1 {
             position: absolute;
@@ -390,7 +390,7 @@
         @media #{$xs} {
             margin-top: 140px;
         }
-        
+
         .shape1 {
             position: absolute;
             bottom: 0;
@@ -431,7 +431,7 @@
         @media #{$xs} {
             margin-top: 120px;
         }
-        
+
         h1 {
             font-size: var( --f-fs-font-fs64);
             line-height: var( --f-fs-font-fs74);
@@ -806,7 +806,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-image: url(../img/bg/hero2-main-bg.png);
+          background-image: url("{{ url_for('static', filename='img/bg/hero2-main-bg.png') }}");
         z-index: -1;
         background-position: center center;
         background-repeat: no-repeat;
@@ -840,7 +840,7 @@
             text-align: start;
             margin-top: 30px;
         }
-        
+
       }
 
 
@@ -850,7 +850,7 @@
         @media #{$xs} {
             margin-top: 140px;
         }
-        
+
         .shape1 {
             position: absolute;
             bottom: 0;
@@ -906,7 +906,7 @@
     display: inline-block;
     padding: 0px 20px;
   }
-  
+
   @media (max-width:767px) {
     .theme-title h2 { font-size: 36px !important; line-height: 46px !important; }
     .theme-title p { font-size: 16px; }
@@ -949,7 +949,7 @@
     .award-title { width: 100%; }
     .slider-img:after { height: 300px; width: 300px; bottom: -150px; }
   }
-  
+
   @keyframes marquee {
   0% { transform: translateX(0); }
   100% { transform: translatex(-100%); }
@@ -958,7 +958,7 @@
   0% { transform: translateX(-100%); }
   100% { transform: translatex(0); }
   }
-  
+
   .marquee-wrap {
     background-image: linear-gradient(135deg, var(--theme-primary-color), var(--theme-secondary-color));
     background-color: var(--ztc-bg-main-bg-4);
@@ -981,13 +981,13 @@
         transform: scale(1.1) translateY(-2px);
     }
   }
-  
+
   .marquee-wrap, .marquee-title { overflow: hidden; display: block; height: 70px; }
   .marquee-text { animation: marquee 50s linear infinite; margin-top: -5px; position: relative; font-size: 100px; width: 100%; white-space: nowrap; line-height: 67px; font-weight: 600; font-family: var(--theme-typography-secondory-font-family); color: var(--theme-white-color); }
   .marquee-text i { font-size: 40px; display: inline-block; vertical-align: middle; line-height: 1; margin: 0 30px; color: var(--theme-text-dark-color); }
   .marquee-title .marquee-text { -webkit-text-stroke: 1px var(--theme-white-color); -webkit-text-fill-color: transparent; color: transparent; font-weight: 600; }
 
-  
+
 
  /*
  ::::::::::::::::::::::::::
